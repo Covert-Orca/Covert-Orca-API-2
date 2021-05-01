@@ -31,10 +31,11 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Covert.Orca.Api/1.0.0": {
+      "covert.orca.api/1.0.0": {
         "dependencies": {
           "Covert.Orca.Domain": "1.0.0",
           "Swashbuckle.AspNetCore": "5.6.3",
+          "covert.orca.data": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -320,10 +321,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "Covert.Orca.Api.dll": {}
+          "covert.orca.api.dll": {}
         },
         "compile": {
-          "Covert.Orca.Api.dll": {}
+          "covert.orca.api.dll": {}
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -383,6 +384,17 @@
         },
         "compile": {
           "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        }
+      },
+      "covert.orca.data/1.0.0": {
+        "dependencies": {
+          "Covert.Orca.Domain": "1.0.0"
+        },
+        "runtime": {
+          "covert.orca.data.dll": {}
+        },
+        "compile": {
+          "covert.orca.data.dll": {}
         }
       },
       "Covert.Orca.Domain/1.0.0": {
@@ -2094,7 +2106,7 @@
     }
   },
   "libraries": {
-    "Covert.Orca.Api/1.0.0": {
+    "covert.orca.api/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2140,6 +2152,11 @@
       "sha512": "sha512-BPvcPxQRMsYZ3HnYmGKRWDwX4Wo29WHh14Q6B10BB8Yfbbcza+agOC2UrBFA1EuaZuOsFLbp6E2+mqVNF/Je8A==",
       "path": "swashbuckle.aspnetcore.swaggerui/5.6.3",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+    },
+    "covert.orca.data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Covert.Orca.Domain/1.0.0": {
       "type": "project",

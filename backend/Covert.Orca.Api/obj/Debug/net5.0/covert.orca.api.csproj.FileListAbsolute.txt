@@ -29,3 +29,5 @@ C:\Users\Tom\Desktop\repos\covert-orca-api-2\backend\covert.orca.api\obj\Debug\n
 C:\Users\Tom\Desktop\repos\covert-orca-api-2\backend\covert.orca.api\obj\Debug\net5.0\covert.orca.api.genruntimeconfig.cache
 C:\Users\Tom\Desktop\repos\covert-orca-api-2\backend\covert.orca.api\bin\Debug\net5.0\Covert.Orca.Domain.dll
 C:\Users\Tom\Desktop\repos\covert-orca-api-2\backend\covert.orca.api\bin\Debug\net5.0\Covert.Orca.Domain.pdb
+C:\Users\Tom\Desktop\repos\covert-orca-api-2\backend\covert.orca.api\bin\Debug\net5.0\covert.orca.data.dll
+C:\Users\Tom\Desktop\repos\covert-orca-api-2\backend\covert.orca.api\bin\Debug\net5.0\covert.orca.data.pdb

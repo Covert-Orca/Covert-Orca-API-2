@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Covert.Orca.Domain\Covert.Orca.Domain.csproj" />
+    <ProjectReference Include="..\Covert.Orca.Data\Covert.Orca.Data.csproj" />
   </ItemGroup>
 
 </Project>
