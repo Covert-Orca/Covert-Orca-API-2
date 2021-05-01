@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\covert.orca.data.csproj": {}
+    "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\Covert.Orca.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\covert.orca.data.csproj": {
+    "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\Covert.Orca.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\covert.orca.data.csproj",
-        "projectName": "covert.orca.data",
-        "projectPath": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\covert.orca.data.csproj",
+        "projectUniqueName": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\Covert.Orca.Data.csproj",
+        "projectName": "Covert.Orca.Data",
+        "projectPath": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\Covert.Orca.Data.csproj",
         "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\obj\\",
         "projectStyle": "PackageReference",
@@ -41,6 +41,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
