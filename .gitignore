@@ -1,5 +1,5 @@
 # exclude database files
 *.db
-[Dd}ebug/
+[Dd]ebug/
 bin/
 [Oo]bj
