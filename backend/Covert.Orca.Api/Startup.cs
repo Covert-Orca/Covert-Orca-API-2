@@ -32,6 +32,14 @@ namespace Covert.Orca.Api
                 opt.UseSqlite(Configuration.GetConnectionString("LocalDb"),
                     b => b.MigrationsAssembly("Covert.Orca.Api")));
 
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.WithOrigins("*");
+                });
+            });
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -48,6 +56,8 @@ namespace Covert.Orca.Api
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Covert.Orca.Api v1"));
             }
+
+            app.UseCors();
 
             app.UseHttpsRedirection();
 
