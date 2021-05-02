@@ -12,7 +12,7 @@ namespace Covert.Orca.Domain.Tests
        {
 
            //Arrange
-           var item = new Item("Name", "Description", "Brand", 10.00m);
+           var item = new Item("Name", "Description", "Brand", "ImageUrl", 10.00m);
            var rating = new Rating(5, "Name", "Review");
 
            //Act
@@ -24,11 +24,12 @@ namespace Covert.Orca.Domain.Tests
         [TestMethod]
        public void Can_Create_New_Item()
        {
-           var item = new Item("Name", "Description", "Brand", 10.00m);
+           var item = new Item("Name", "Description", "Brand", "ImageUrl", 10.00m);
 
            Assert.AreEqual("Name", item.Name);
            Assert.AreEqual("Description", item.Description);
            Assert.AreEqual("Brand", item.Brand);
+           Assert.AreEqual("ImageUrl", item.ImageUrl);
            Assert.AreEqual(10.00m, item.Price);
        } 
     }
