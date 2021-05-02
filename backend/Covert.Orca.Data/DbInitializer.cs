@@ -12,7 +12,7 @@ namespace Covert.Orca.Data
             {
                 var items = new Item[]
                 {
-                    new Item("T-Shirt", "Ohio State Block O", "Nike", "/image/d1/.jpg", 39.99m),
+                    new Item("T-Shirt", "Ohio State Block O", "Nike", "/image/d1.jpg", 39.99m),
                     new Item("Shorts", "Casual shorts", "Nike", "/image/d1.jpg", 49.99m)
                 };
                 context.Items.AddRange(items);
