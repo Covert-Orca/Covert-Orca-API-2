@@ -31,6 +31,14 @@ namespace Covert.Orca.Api.Controllers
             return Ok(_db.Items.Find(id));
         }
 
+        [HttpPost]
+        public IActionResult Post(Item item)
+        {
+            _db.Items.Add(item);
+            _db.SaveChanges();
+            return Created($"/catalog/{item.Id}", item);
+        }
+
         [HttpPost("{id:int}/ratings")]
         public IActionResult PostRating(int id, [FromBody] Rating rating)
         {
