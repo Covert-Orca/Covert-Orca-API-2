@@ -1,5 +1,6 @@
 ﻿using System;
 using Covert.Orca.Domain.Catalog;
+using Covert.Orca.Domain.Orders;
 using Microsoft.EntityFrameworkCore;
 
 namespace Covert.Orca.Data
@@ -11,5 +12,6 @@ namespace Covert.Orca.Data
         { }
 
         public DbSet<Item> Items { get; set; }
+        public DbSet<Order> Order { get; set; }
     }
 }
