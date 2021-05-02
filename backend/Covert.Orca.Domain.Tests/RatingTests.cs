@@ -13,6 +13,7 @@ namespace Covert.Orca.Domain.Tests
         {
             var rating = new Rating(0, "Name", "Review");
         }
+        [TestMethod]
         public void Can_Create_New_Rating()
         {
             //Arrange

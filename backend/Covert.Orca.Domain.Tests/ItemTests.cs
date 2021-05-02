@@ -4,6 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Covert.Orca.Domain.Tests
 {
+    [TestClass]
     public class ItemTest
     {
        [TestMethod]
@@ -20,6 +21,7 @@ namespace Covert.Orca.Domain.Tests
            //Assert
            Assert.AreEqual(rating, item.Ratings[0]);
        }
+        [TestMethod]
        public void Can_Create_New_Item()
        {
            var item = new Item("Name", "Description", "Brand", 10.00m);
