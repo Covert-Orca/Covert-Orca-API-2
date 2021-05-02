@@ -31,15 +31,15 @@
   },
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "covert.orca.api/1.0.0": {
+      "Covert.Orca.Api/1.0.0": {
         "dependencies": {
+          "Covert.Orca.Data": "1.0.0",
           "Covert.Orca.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.Design": "5.0.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.5",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.5",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "5.0.2",
           "Swashbuckle.AspNetCore": "5.6.3",
-          "covert.orca.data": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -323,10 +323,10 @@
           "WindowsBase": "4.0.0.0"
         },
         "runtime": {
-          "covert.orca.api.dll": {}
+          "Covert.Orca.Api.dll": {}
         },
         "compile": {
-          "covert.orca.api.dll": {}
+          "Covert.Orca.Api.dll": {}
         }
       },
       "Humanizer.Core/2.8.26": {
@@ -2047,16 +2047,16 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "covert.orca.data/1.0.0": {
+      "Covert.Orca.Data/1.0.0": {
         "dependencies": {
           "Covert.Orca.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.5"
         },
         "runtime": {
-          "covert.orca.data.dll": {}
+          "Covert.Orca.Data.dll": {}
         },
         "compile": {
-          "covert.orca.data.dll": {}
+          "Covert.Orca.Data.dll": {}
         }
       },
       "Covert.Orca.Domain/1.0.0": {
@@ -3756,7 +3756,7 @@
     }
   },
   "libraries": {
-    "covert.orca.api/1.0.0": {
+    "Covert.Orca.Api/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -4727,7 +4727,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "covert.orca.data/1.0.0": {
+    "Covert.Orca.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
