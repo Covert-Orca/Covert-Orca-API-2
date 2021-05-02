@@ -7657,11 +7657,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.api\\covert.orca.api.csproj",
+      "projectUniqueName": "C:\\Users\\Tom\\Desktop\\repos\\Covert-Orca-API-2\\backend\\covert.orca.api\\covert.orca.api.csproj",
       "projectName": "covert.orca.api",
-      "projectPath": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.api\\covert.orca.api.csproj",
+      "projectPath": "C:\\Users\\Tom\\Desktop\\repos\\Covert-Orca-API-2\\backend\\covert.orca.api\\covert.orca.api.csproj",
       "packagesPath": "C:\\Users\\Tom\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.api\\obj\\",
+      "outputPath": "C:\\Users\\Tom\\Desktop\\repos\\Covert-Orca-API-2\\backend\\covert.orca.api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Tom\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -7676,11 +7676,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\covert.orca.data.csproj": {
-              "projectPath": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\covert.orca.data.csproj"
+            "C:\\Users\\Tom\\Desktop\\repos\\Covert-Orca-API-2\\backend\\covert.orca.data\\covert.orca.data.csproj": {
+              "projectPath": "C:\\Users\\Tom\\Desktop\\repos\\Covert-Orca-API-2\\backend\\covert.orca.data\\covert.orca.data.csproj"
             },
-            "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\Covert.Orca.Domain\\Covert.Orca.Domain.csproj": {
-              "projectPath": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\Covert.Orca.Domain\\Covert.Orca.Domain.csproj"
+            "C:\\Users\\Tom\\Desktop\\repos\\Covert-Orca-API-2\\backend\\Covert.Orca.Domain\\Covert.Orca.Domain.csproj": {
+              "projectPath": "C:\\Users\\Tom\\Desktop\\repos\\Covert-Orca-API-2\\backend\\Covert.Orca.Domain\\Covert.Orca.Domain.csproj"
             }
           }
         }
