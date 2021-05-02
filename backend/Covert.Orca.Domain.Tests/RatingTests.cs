@@ -8,6 +8,11 @@ namespace Covert.Orca.Domain.Tests
     public class RatingTest
     {
         [TestMethod]
+        [ExpectedException(typeof(ArgumentException))]
+        public void Create_With_Bad_Start_Throws_Error()
+        {
+            var rating = new Rating(0, "Name", "Review");
+        }
         public void Can_Create_New_Rating()
         {
             //Arrange

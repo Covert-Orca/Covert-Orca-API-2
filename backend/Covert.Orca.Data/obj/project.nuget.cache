@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/VAAut/49Hbse8oJu0J/Sq3vgWDxTWbuaDcKRtwE4iS6ecJkncDzdz5tilf+iXY23dVIQPHDpWNFFVqWNklxXA==",
+  "dgSpecHash": "nIg6QpYaTrdNleOoXHmLqa02mUGA+12xJDqMdbiBDdHyNPbMry6SNuvtrcNKBv/SUzcJTdecnlVPM78tI3HasA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\Covert.Orca.Data\\Covert.Orca.Data.csproj",
+  "projectFilePath": "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\covert.orca.data\\covert.orca.data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tom\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.5\\microsoft.data.sqlite.core.5.0.5.nupkg.sha512",
     "C:\\Users\\Tom\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",

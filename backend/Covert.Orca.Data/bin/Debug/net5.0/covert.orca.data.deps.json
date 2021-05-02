@@ -6,13 +6,13 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
-      "Covert.Orca.Data/1.0.0": {
+      "covert.orca.data/1.0.0": {
         "dependencies": {
           "Covert.Orca.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore.Sqlite": "5.0.5"
         },
         "runtime": {
-          "Covert.Orca.Data.dll": {}
+          "covert.orca.data.dll": {}
         }
       },
       "Microsoft.Data.Sqlite.Core/5.0.5": {
@@ -326,7 +326,7 @@
     }
   },
   "libraries": {
-    "Covert.Orca.Data/1.0.0": {
+    "covert.orca.data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

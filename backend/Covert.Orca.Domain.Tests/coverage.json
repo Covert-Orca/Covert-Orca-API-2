@@ -1,0 +1,308 @@
+{
+  "Covert.Orca.Domain.dll": {
+    "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\Covert.Orca.Domain\\Orders\\OrderItem.cs": {
+      "Covert.Orca.Domain.Orders.OrderItem": {
+        "System.Int32 Covert.Orca.Domain.Orders.OrderItem::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "Covert.Orca.Domain.Catalog.Item Covert.Orca.Domain.Orders.OrderItem::get_Item()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Covert.Orca.Domain.Orders.OrderItem::get_Quantity()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Covert.Orca.Domain.Orders.OrderItem::get_Price()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\Covert.Orca.Domain\\Orders\\Orders.cs": {
+      "Covert.Orca.Domain.Orders.Order": {
+        "System.Int32 Covert.Orca.Domain.Orders.Order::get_Id()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Covert.Orca.Domain.Orders.OrderItem> Covert.Orca.Domain.Orders.Order::get_Items()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Covert.Orca.Domain.Orders.Order::get_CreatedDate()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Covert.Orca.Domain.Orders.Order::get_TotalPrice()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\Covert.Orca.Domain\\Catalog\\Item.cs": {
+      "Covert.Orca.Domain.Catalog.Item": {
+        "System.Int32 Covert.Orca.Domain.Catalog.Item::get_Id()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Covert.Orca.Domain.Catalog.Item::get_Name()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Covert.Orca.Domain.Catalog.Item::get_Description()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.String Covert.Orca.Domain.Catalog.Item::get_Brand()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Covert.Orca.Domain.Catalog.Item::get_Price()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Covert.Orca.Domain.Catalog.Rating> Covert.Orca.Domain.Catalog.Item::get_Ratings()": {
+          "Lines": {
+            "13": 0
+          },
+          "Branches": []
+        },
+        "System.Void Covert.Orca.Domain.Catalog.Item::AddRating(Covert.Orca.Domain.Catalog.Rating)": {
+          "Lines": {
+            "46": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": []
+        },
+        "System.Void Covert.Orca.Domain.Catalog.Item::.ctor(System.String,System.String,System.String,System.Decimal)": {
+          "Lines": {
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 16,
+              "EndOffset": 30,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 38,
+              "EndOffset": 40,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 38,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 60,
+              "EndOffset": 62,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 60,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 91,
+              "EndOffset": 93,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 91,
+              "EndOffset": 116,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 119,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 119,
+              "EndOffset": 133,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\Tom\\Desktop\\repos\\covert-orca-api-2\\backend\\Covert.Orca.Domain\\Catalog\\Rating.cs": {
+      "Covert.Orca.Domain.Catalog.Rating": {
+        "System.Int32 Covert.Orca.Domain.Catalog.Rating::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Covert.Orca.Domain.Catalog.Rating::get_Star()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.String Covert.Orca.Domain.Catalog.Rating::get_UserName()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.String Covert.Orca.Domain.Catalog.Rating::get_Review()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void Covert.Orca.Domain.Catalog.Rating::.ctor(System.Int32,System.String,System.String)": {
+          "Lines": {
+            "12": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "16": 1,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 10,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 14,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 14,
+              "Offset": 21,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 43,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
