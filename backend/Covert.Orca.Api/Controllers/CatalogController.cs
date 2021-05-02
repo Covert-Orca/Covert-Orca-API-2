@@ -42,9 +42,14 @@ namespace Covert.Orca.Api.Controllers
         [HttpPost("{id:int}/ratings")]
         public IActionResult PostRating(int id, [FromBody] Rating rating)
         {
-            var item = new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m);
-            item.Id = id;
+            var item = _db.Items.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+
             item.AddRating(rating);
+            _db.SaveChanges();
 
             return Ok(item);
         }
@@ -52,12 +57,34 @@ namespace Covert.Orca.Api.Controllers
         [HttpPut("{id:int}")]
         public IActionResult PutItem(int id, [FromBody] Item item)
         {
-            return Ok();
+            if (id != item.Id)
+            {
+                return BadRequest();
+            }
+
+            if (_db.Items.Find(id) == null)
+            {
+                return NotFound();
+            }
+
+            _db.Entry(item).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            _db.SaveChanges();
+
+            return NoContent();
         }
 
         [HttpDelete]
         public IActionResult DeleteItem(int id)
         {
+            var item = _db.Items.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+
+            _db.Items.Remove(item);
+            _db.SaveChanges();
+
             return Ok();
         }
     }

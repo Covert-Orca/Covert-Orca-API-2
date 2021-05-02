@@ -34,10 +34,12 @@ namespace Covert.Orca.Domain.Catalog
                 throw new ArgumentException("Item price must be a positive amount less than $1,000.00");
             }
 
+
             this.Name = name;
             this.Description = description;
             this.Brand = brand;
             this.Price = price;
+            this.Ratings = new List<Rating>();
         }
 
         public void AddRating(Rating rating)
