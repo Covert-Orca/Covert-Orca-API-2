@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7JJUO2cwFs3Kt7kH5Q0boeCZ/0Ms4or/4dqtXgWiJ50AZPckoruW/vYulpN91c13ZJjOdFarOImWic6xlroDoQ==",
+  "dgSpecHash": "pH6zqf8LIy6JDwwlfruD507UBbxXxkXXU7Ri7rOMSGabg++S2kJYzkB9wV4hEjqXvPyAM4yjaxIOGXhQwtcvWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tom\\Desktop\\repos\\Covert-Orca-API-2\\backend\\covert.orca.api\\covert.orca.api.csproj",
+  "projectFilePath": "C:\\Users\\Tom\\Desktop\\repos\\Covert-Orca-API-2\\backend\\Covert.Orca.Api\\Covert.Orca.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tom\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Tom\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
